@@ -146,3 +146,4 @@ sql/
 ClientBin/
 *log-*
 *.vs
+/SearchOrchestrator/SearchOrchestrator.sln
