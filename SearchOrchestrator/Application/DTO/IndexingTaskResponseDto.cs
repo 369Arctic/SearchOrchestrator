@@ -3,7 +3,7 @@
     public class IndexingTaskResponseDto
     {
         public Guid TaskId { get; set; }
-        public TaskStatus Status { get; set; }
-        public DateTime CreeatedAt { get; set; }
+        public Domain.TaskStatus Status { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }
