@@ -1,6 +1,7 @@
 ﻿using SearchOrchestrator.Application.DTO;
 using SearchOrchestrator.Application.Interfaces;
 using SearchOrchestrator.Domain;
+using SearchOrchestrator.Infrastructure.Search;
 
 namespace SearchOrchestrator.Application.Services
 {

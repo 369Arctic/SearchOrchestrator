@@ -1,5 +1,4 @@
-﻿
-namespace SearchOrchestrator.Application.Interfaces
+﻿namespace SearchOrchestrator.Infrastructure.Search
 {
     // TODO пока чистая заглушка.
     public interface ISearchEngineClient
