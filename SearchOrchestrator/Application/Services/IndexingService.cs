@@ -79,7 +79,7 @@ namespace SearchOrchestrator.Application.Services
         public async Task<IndexingTaskResponseDto> StartAsync(StartIndexingRequestDto request)
         {
             var existing = await _taskRepo.GetByIdempotencyKeyAsync(request.IdempotencyKey);
-            if (existing == null)
+            if (existing != null)
                 return Map(existing);
 
             var source = new Source
